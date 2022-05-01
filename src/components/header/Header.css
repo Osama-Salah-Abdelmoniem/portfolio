@@ -23,9 +23,8 @@
 .logo{
     display: flex;
     font-size: 36px;
-    color: #482673;
+    color: blueviolet;
     font-weight: 800;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 @media only screen and (max-width: 720px){

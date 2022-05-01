@@ -78,7 +78,8 @@
     justify-content: center;
     justify-items: center;
     text-decoration: none;
-    color: black;
+    color: blueviolet;
+    font-weight: 600;
     border-bottom: 3px solid transparent;
     font-size: 20px;
     margin-right: 16px;
@@ -103,12 +104,12 @@
   
   .nav-item:hover:after {
     width: 100%;
-    background: black;
+    background: blueviolet;
   }
   
   .nav-item.active {
-    color: black;
-    border: 1px solid black;
+    color: blueviolet;
+    border: 1px solid blueviolet;
   }
   
   .nav-icon {
@@ -137,7 +138,7 @@
       z-index: 1;
     }
     .nav-item .active {
-      color: black;
+      color: blueviolet;
       border: none;
     }
     .nav-links {
@@ -153,6 +154,6 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      color: black;
+      color: blueviolet;
     }
   }
