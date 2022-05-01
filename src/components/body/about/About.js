@@ -17,15 +17,14 @@ const About = () => {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hello There 👋, I am
-          <br /> <span className="info-name">Osama Salah</span>.
+          Hi There 👋,
+          <br /> I'M <span className="info-name">Osama Salah</span>.
           <br /> <span ref={textRef}></span>
         </div>
         <div className="about-img">
-          <img src={require("./coding.png")} className="picture" />
+          <img src={require("./dev.png")} className="picture" />
         </div>
       </div>
-      <SocialContact />
     </div>
   );
 };
