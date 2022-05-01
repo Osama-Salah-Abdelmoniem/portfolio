@@ -23,3 +23,136 @@
 .web-option:last-child{
     margin-right:0px;
 }
+
+
+
+.navbar {
+    height: 80px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+  .main-container{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(0,0,0,0.3);
+  }
+  
+  .nav-logo {
+    color: rebeccapurple;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    flex-grow: 1;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-right: 2rem;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    color: black;
+    border-bottom: 3px solid transparent;
+    font-size: 20px;
+    margin-right: 16px;
+
+  }
+  .fa-code {
+    margin-left: 1rem;
+  }
+  
+  .nav-item {
+    margin-right: 1rem;
+  }
+  
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item:hover:after {
+    width: 100%;
+    background: black;
+  }
+  
+  .nav-item.active {
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      border-top: 1pxsolid #fff;
+      position: absolute;
+      top: 80px;
+      left: -110%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background: white;
+      left: 0px;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .active {
+      color: black;
+      border: none;
+    }
+    .nav-links {
+      width: 100%;
+      display: flex;
+    }
+  
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: black;
+    }
+  }

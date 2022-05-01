@@ -7,24 +7,26 @@ import { FiUser } from "react-icons/fi";
 
 const Web = () => {
   return (
-    <div className="web">
-      <div className="web-option">
-        <a href="#projects">
-          <FaLaptopCode className="option-icon" />
-          projects
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#skills">
-          <BsCodeSlash className="option-icon" />
-          skills
-        </a>
-      </div>
-      <div className="web-option">
-        <a href="#contact">
-          <FiUser className="option-icon" />
-          contact
-        </a>
+    <div className="navbar">
+      <div className="nav-container">
+        <div className="nav-item">
+          <a href="#projects" activeClassName="active" className="nav-links">
+            <FaLaptopCode className="option-icon" />
+            projects
+          </a>
+        </div>
+        <div className="nav-item">
+          <a href="#skills" activeClassName="active" className="nav-links">
+            <BsCodeSlash className="option-icon" />
+            skills
+          </a>
+        </div>
+        <div className="nav-item">
+          <a href="#contact" activeClassName="active" className="nav-links">
+            <FiUser className="option-icon" />
+            contact
+          </a>
+        </div>
       </div>
     </div>
   );
