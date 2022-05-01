@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div className="logo">Osama Salah</div>
+      <div className="logo">OS.</div>
       <div className="menu">
         <div className="web-menu">
           <Web />
