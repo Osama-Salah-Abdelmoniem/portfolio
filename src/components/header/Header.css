@@ -1,6 +1,5 @@
 .header{
     display: flex;
-    background-color: aquamarine;
     justify-content: space-between;
     flex: 1;
     padding: 12px;
