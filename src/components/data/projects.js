@@ -7,6 +7,6 @@ export const ProjectData = [
     tags: ["ReactJs"],
     demo: "www.link",
     github: "www.githubdfgdf",
-    image: require("./Project-Forecast.png"),
+    image: require("./p1.png"),
   },
 ];
