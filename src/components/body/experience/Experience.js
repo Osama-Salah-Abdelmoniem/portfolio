@@ -1,7 +1,7 @@
 import React from "react";
 
-const Work = () => {
+const Experience = () => {
   return <div>Work</div>;
 };
 
-export default Work;
+export default Experience;
