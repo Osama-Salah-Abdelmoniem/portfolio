@@ -26,9 +26,9 @@ const Mobile = ({ isOpen, setIsOpen }) => {
           </a>
         </div>
         <div className="mobile-option">
-          <a href="#work">
+          <a href="#experience">
             <MdWorkOutline className="option-icon" />
-            work
+            experience
           </a>
         </div>
         <div className="mobile-option">

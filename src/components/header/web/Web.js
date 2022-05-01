@@ -21,9 +21,9 @@ const Web = () => {
         </a>
       </div>
       <div className="web-option">
-        <a href="#work">
+        <a href="#experience">
           <MdWorkOutline className="option-icon" />
-          work
+          experience
         </a>
       </div>
       <div className="web-option">
