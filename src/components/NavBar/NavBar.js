@@ -5,6 +5,7 @@ import { FaLaptopCode } from "react-icons/fa";
 import { BsCodeSlash } from "react-icons/bs";
 import { CgUserlane } from "react-icons/cg";
 import { FiUser } from "react-icons/fi";
+import { FiDownload } from "react-icons/fi";
 function NavBar() {
   const [click, setClick] = useState(false);
 
@@ -67,6 +68,19 @@ function NavBar() {
                 <FiUser />
                 contact
               </Link>
+            </li>
+
+            <li className="nav-item">
+              <a
+                activeClassName="active"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+                download
+                href={require("../data/Osama_Salah_Resume.pdf")}
+              >
+                <FiDownload />
+                resume
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
