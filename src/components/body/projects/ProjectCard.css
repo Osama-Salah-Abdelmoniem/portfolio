@@ -8,6 +8,7 @@
 }
 .project-photo{
     width: 40%;
+    filter: drop-shadow(0px 5px 5px gray);
 }
 .project-info{
     margin-right: 24px;
@@ -24,13 +25,14 @@
 }
 .tag{
     padding: 4px 8px;
-    background-color: aquamarine;
+    background-color: blueviolet;
     border-radius: 6px;
     margin-bottom: 4px;
+    color: white;
 }
 .project-links a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .project-links{
     margin-top: 6px;
@@ -40,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
+    background-color: blueviolet;
     width: max-content;
     padding: 4px 8px ;
     border-radius: 4px;
