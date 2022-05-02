@@ -8,6 +8,7 @@ const Skills = () => {
   return (
     <div className="skills">
       <Separator />
+      <br />
       <label className="section-title">Professional Skillset</label>
       <div className="skills-container">
         {data.map((item) => {
@@ -23,6 +24,9 @@ const Skills = () => {
           );
         })}
       </div>
+      <br />
+      <br />
+      <br />
     </div>
   );
 };
