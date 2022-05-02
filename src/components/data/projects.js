@@ -7,6 +7,6 @@ export const ProjectData = [
     tags: ["ReactJs"],
     demo: "www.link",
     github: "www.https://github.com/Osama-Salah-Abdelmoniem/portfolio",
-    image: require("./p1.png"),
+    image: require("./prot.png"),
   },
 ];
