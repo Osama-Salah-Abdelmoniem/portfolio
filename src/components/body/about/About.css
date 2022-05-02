@@ -19,6 +19,24 @@
     color: blueviolet;
     font-size: 32px;
 }
+.intro{
+    font-size: 32px;
+}
+.intro-p{
+    font-size: 20px;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.free{
+    font-size: 20px;
+}
+.highlight{
+    color: blueviolet;
+}
 @media only screen and (max-width: 720px){
     .about-top{
         flex-direction: column;
