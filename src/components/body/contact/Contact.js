@@ -7,12 +7,11 @@ const Contact = () => {
   return (
     <div className="contact">
       <Separator />
-      <label className="section-title">Contact</label>
+      <br />
+      <label className="section-title">Ways To Contact</label>
       <div className="contact-container">
-        <div className="contact-left">
-          <p>Get in touch! Contact me on my any of the platforms</p>
-          <SocialContact />
-        </div>
+        <p>Get in touch!</p>
+        <SocialContact />
       </div>
     </div>
   );

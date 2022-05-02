@@ -1,9 +1,11 @@
 .contact{
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex: 1;
 }
 .section-title{
+    text-align: center;
     color: blueviolet;
     font-size: 32px;
     font-weight: 700;
@@ -11,7 +13,7 @@
 .contact-container{
     display: flex;
     flex: 1;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 16px 0px;
 }
