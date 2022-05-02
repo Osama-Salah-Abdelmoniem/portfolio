@@ -1,14 +1,12 @@
 import React from "react";
 import "./Home.css";
-import Header from "../header/Header";
 import Body from "../body/Body";
 import Footer from "../footer/Footer";
+import NavBar from "../NavBar/NavBar";
 const Home = () => {
   return (
     <div className="home">
-      <div>
-        <Header />
-      </div>
+      <NavBar />
       <div>
         <Body />
       </div>
