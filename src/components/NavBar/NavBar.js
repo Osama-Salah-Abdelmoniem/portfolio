@@ -30,7 +30,7 @@ function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 <CgUserlane />
-                about
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -42,7 +42,7 @@ function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 <FaLaptopCode />
-                projects
+                Projects
               </Link>
             </li>
             <li className="nav-item">
@@ -54,7 +54,7 @@ function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 <BsCodeSlash />
-                skills
+                Skills
               </Link>
             </li>
             <li className="nav-item">
@@ -66,7 +66,7 @@ function NavBar() {
                 onClick={click ? handleClick : null}
               >
                 <FiUser />
-                contact
+                Contact
               </Link>
             </li>
 
@@ -79,7 +79,7 @@ function NavBar() {
                 href={require("../data/Osama_Salah_Resume.pdf")}
               >
                 <FiDownload />
-                resume
+                Resume
               </a>
             </li>
           </ul>
