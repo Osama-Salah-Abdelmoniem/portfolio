@@ -1,5 +1,10 @@
 export const SocialData = [
   {
+    platform: "Gmail",
+    link: "mailto:osama.s.abdelmoniem@gmail.com",
+    icon: require("./gmail.png"),
+  },
+  {
     platform: "Github",
     link: "https://github.com/Osama-Salah-Abdelmoniem",
     icon: require("./github(1).png"),
