@@ -37,6 +37,25 @@
 .highlight{
     color: blueviolet;
 }
+.btn{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: .12em;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    border: 2px solid blueviolet;
+    background-color: blueviolet;
+}
 @media only screen and (max-width: 720px){
     .about-top{
         flex-direction: column;
@@ -51,6 +70,10 @@
     }
     .info-name{
         font-size: 26px;
+    }
+    .intro{
+        text-align: center;
+        font-size: 32px;
     }
 }
     

@@ -28,23 +28,25 @@ const About = () => {
       <div className="intro">
         Let Me <span className="info-name">Introduce</span> MySelf
         <div className="intro-p">
+          <br />
           I fell in love with programming and I have at least learnt something,
           I think… 🤷‍♂️
           <br />
+          <br />
           I am fluent in classics like C++, Javascript and Python.
+          <br />
           <br />
           My field of Interest is building Web Apps with{" "}
           <span className="highlight">Node.js</span> and Modern JS Library and
           Frameworks like <span className="highlight">React.js</span> and{" "}
           <span className="highlight">Next.js</span>
         </div>
-        <div className="connect">
-          <br />
-          <span className="info-name">FIND ME ON</span>
-          <span className="free">Feel free to contact me.</span>
-          <SocialContact />
-          <br />
-        </div>
+        <br />
+        <a type="button" href="#contact" className="btn">
+          CONTACT ME
+        </a>
+        <br />
+        <br />
       </div>
     </div>
   );
