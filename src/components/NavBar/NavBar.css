@@ -88,6 +88,10 @@
   
   @media screen and (max-width: 720px) {
     
+    .nav-logo {
+      margin: 15px;
+    }
+
     .nav-menu {
       display: flex;
       flex-direction: column;
