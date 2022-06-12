@@ -10,7 +10,7 @@ const About = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Back-end Developer", "MERN Stack Developer"],
+      strings: ["Front-end Developer", "MERN Stack Developer"],
     });
   }, []);
   return (
